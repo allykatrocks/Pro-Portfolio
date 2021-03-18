@@ -47,9 +47,10 @@ li {
 }
 
 main {
+    margin: 15%;
+    margin-top: 35px;
     width: 75%;
     display: inline-block;
-    margin-left: 20px;
 }
 
 p{
@@ -71,7 +72,6 @@ p{
 .contact-me {
     margin-bottom: 20px;
     padding: 50px;
-    height: 100px;
     background-color: var(--bg-color);
     color: var(--color);
 }
@@ -80,3 +80,32 @@ p{
     color: var(--color);
 }
 
+.my-work {
+    display: flex;
+    flex-direction: column;
+    padding: 50px;
+    background-color: var(--bg-color);
+    color: var(--color);
+    margin-bottom: 20px;
+}
+
+.flex-column {
+    flex-direction: column;
+}
+
+.flex-row {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.work-large-image {
+    width: 100%;
+}
+
+.work-small-images {
+    height: 200px;
+}
+
+/* @media screen and (max-width: 768px) { */
+   
