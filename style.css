@@ -62,7 +62,7 @@ p{
     width: 50%;
     margin-top: 25px;
     margin-bottom: 25px;
-    margin-left: 350px;
+    margin-left: 25%;
     background-image: url("./images/my\ face.jpg");
     background-size: cover;
     background-position: center;
@@ -99,6 +99,10 @@ p{
     justify-content: space-between;
 }
 
+a img:hover {
+    opacity: 50%;
+}
+
 .work-large-image {
     width: 100%;
 }
@@ -107,5 +111,16 @@ p{
     height: 200px;
 }
 
-/* @media screen and (max-width: 768px) { */
-   
+@media screen and (max-width: 768px) {
+    .flex-row {
+        flex-direction: column;
+    }
+}
+
+@media screen and (max-width: 425px) {
+  nav {
+    padding-top: 0;
+    margin-right: 0;
+    float: none;
+  }
+}
