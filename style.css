@@ -100,7 +100,7 @@ p a {
 .flex-row {
     display: flex;
     flex-direction: row;
-    justify-content: space-between;
+    justify-content: space-evenly;
 }
 
 a img:hover {
